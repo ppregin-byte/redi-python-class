@@ -1,7 +1,7 @@
 # redi-a25-python
 
-Учебный проект для курса Python (осень 2025).
+Autumn 2025 Python project
 
-## Файлы
-- `test.py` — тестовый файл.
-- `session.py` — примеры с занятий.
+## Files
+- `test.py` 
+- `lesson-2-homework.py` 
