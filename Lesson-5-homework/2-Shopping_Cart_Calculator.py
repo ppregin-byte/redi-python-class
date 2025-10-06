@@ -1,17 +1,4 @@
 # Shopping Cart Calculator
-# RECEIPT
-# =======
-# Laptop                           $899.99
-# Mouse                            $25.50
-# Keyboard                         $75.00
-#                                --------
-# Subtotal:                      $1000.49
-# Discount (10% for $1000+):      -$100.05
-# Tax (8.5%):                      $76.54
-# Shipping:                        $9.99
-#                                --------
-# TOTAL:                          $986.97
-
 
 def add_items():
     items = []
@@ -31,7 +18,6 @@ def add_items():
                     print("Invalid input. Please enter numbers only.")
             items.append(item)  
 
-# items [{"name": "Laptop", "price": 899.99}, {"name": "Keyboard", "price": 75.00}]
 def calculating_subtotals(it):
     prices = []
     for item in it:
